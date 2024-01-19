@@ -953,6 +953,7 @@ export class DocumentDetailComponent
       .listAll()
       .pipe(first(), takeUntil(this.unsubscribeNotifier))
       .subscribe((result) => (this.customFields = result.results))
+    console.log(this.customFields)
   }
 
   public refreshCustomFields() {

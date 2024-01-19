@@ -113,6 +113,7 @@ import { PreviewPopupComponent } from './components/common/preview-popup/preview
 import { SwitchComponent } from './components/common/input/switch/switch.component'
 import { ConfigComponent } from './components/admin/config/config.component'
 
+
 import localeAf from '@angular/common/locales/af'
 import localeAr from '@angular/common/locales/ar'
 import localeBe from '@angular/common/locales/be'
@@ -142,8 +143,6 @@ import localeSv from '@angular/common/locales/sv'
 import localeTr from '@angular/common/locales/tr'
 import localeUk from '@angular/common/locales/uk'
 import localeZh from '@angular/common/locales/zh'
-import { CustomFieldService } from './pipes/custom-field.pipe'
-import { CustomFieldPipe } from './pipes/custom-field.pipe.spec'
 
 registerLocaleData(localeAf)
 registerLocaleData(localeAr)
@@ -231,7 +230,6 @@ function initializeApp(settings: SettingsService) {
     YesNoPipe,
     FileSizePipe,
     FilterPipe,
-    CustomFieldPipe,
     DocumentTitlePipe,
     MetadataCollapseComponent,
     SelectDialogComponent,

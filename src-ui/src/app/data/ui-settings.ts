@@ -14,6 +14,8 @@ export interface UiSetting {
 
 export const SETTINGS_KEYS = {
   LANGUAGE: 'language',
+  APP_LOGO: 'app_logo',
+  APP_TITLE: 'app_title',
   // maintain old general-settings: for backwards compatibility
   BULK_EDIT_CONFIRMATION_DIALOGS:
     'general-settings:bulk-edit:confirmation-dialogs',
